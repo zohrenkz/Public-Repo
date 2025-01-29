@@ -1,0 +1,11 @@
+{
+  "name": "redis-library",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/lib/index.js",
+  "scripts": {
+    "start": "node --loader ts-node/esm lib/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
